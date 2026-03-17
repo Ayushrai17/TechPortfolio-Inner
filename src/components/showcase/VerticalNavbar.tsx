@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from '../general';
-import forHire from '../../assets/pictures/forHireGif.gif';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 export interface VerticalNavbarProps {}
@@ -11,9 +10,7 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
     const [isHome, setIsHome] = useState(false);
 
     const navigate = useNavigate();
-    const goToContact = () => {
-        navigate('/contact');
-    };
+    
 
     useEffect(() => {
         if (location.pathname.includes('/projects')) {

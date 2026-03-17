@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from '../general';
 import Resume from '../../assets/resume/Ayush_Rai_S26_Resume.pdf';
-import forhire from '../../assets/pictures/forHireGif.gif';
 import { useNavigate } from 'react-router-dom';
 
 export interface HomeProps {}
