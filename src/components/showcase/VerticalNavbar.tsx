@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from '../general';
 import forHire from '../../assets/pictures/forHireGif.gif';
-import { useLocation, useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export interface VerticalNavbarProps {}
 
@@ -32,17 +32,17 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
     return !isHome ? (
         <div style={styles.navbar}>
             <div style={styles.header}>
-                <h1 style={styles.headerText}>Henry</h1>
-                <h1 style={styles.headerText}>Heffernan</h1>
-                <h3 style={styles.headerShowcase}>Showcase '22</h3>
+                <h1 style={styles.headerText}>Ayush</h1>
+                <h1 style={styles.headerText}>Rai</h1>
+                <h3 style={styles.headerShowcase}>Showcase '26</h3>
             </div>
             <div style={styles.links}>
                 <Link containerStyle={styles.link} to="" text="HOME" />
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
                 <Link
                     containerStyle={styles.link}
-                    to="experience"
-                    text="EXPERIENCE"
+                    to="skills"
+                    text="SKILLS"
                 />
                 <Link
                     containerStyle={Object.assign(
@@ -60,17 +60,17 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                             <Link
                                 containerStyle={styles.insetLink}
                                 to="projects/software"
-                                text="SOFTWARE"
+                                text="FRESH KART"
                             />
                             <Link
                                 containerStyle={styles.insetLink}
                                 to="projects/music"
-                                text="MUSIC"
+                                text="GURD AI"
                             />
                             <Link
                                 containerStyle={styles.insetLink}
                                 to="projects/art"
-                                text="ART"
+                                text="TRIP MATE"
                             />
                         </div>
                     )
@@ -80,10 +80,6 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
-            </div>
-            <div style={styles.spacer} />
-            <div style={styles.forHireContainer} onMouseDown={goToContact}>
-                {/* <img src={forHire} style={styles.image} alt="" /> */}
             </div>
         </div>
     ) : (
@@ -96,14 +92,14 @@ const styles: StyleSheetCSS = {
         width: 300,
         height: '100%',
         flexDirection: 'column',
-        padding: 48,
+        padding: 32,
         boxSizing: 'border-box',
         position: 'fixed',
-        overflow: 'hidden',
+        overflowY: 'auto',
     },
     header: {
         flexDirection: 'column',
-        marginBottom: 64,
+        marginBottom: 24,
     },
     headerText: {
         fontSize: 38,
@@ -117,7 +113,7 @@ const styles: StyleSheetCSS = {
         marginBottom: 8,
     },
     link: {
-        marginBottom: 32,
+        marginBottom: 20,
     },
     expandedLink: {
         marginBottom: 16,
@@ -133,18 +129,10 @@ const styles: StyleSheetCSS = {
     links: {
         flexDirection: 'column',
         flex: 1,
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
     },
     image: {
         width: '80%',
-    },
-    spacer: {
-        flex: 1,
-    },
-    forHireContainer: {
-        cursor: 'pointer',
-
-        width: '100%',
     },
 };
 

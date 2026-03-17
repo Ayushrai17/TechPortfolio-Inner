@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from '../general';
-
+import Resume from '../../assets/resume/Ayush_Rai_S26_Resume.pdf';
 import forhire from '../../assets/pictures/forHireGif.gif';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 export interface HomeProps {}
 
@@ -16,15 +16,15 @@ const Home: React.FC<HomeProps> = (props) => {
     return (
         <div style={styles.page}>
             <div style={styles.header}>
-                <h1 style={styles.name}>Henry Heffernan</h1>
+                <h1 style={styles.name}>Ayush Rai</h1>
                 <h2>Software Engineer</h2>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
                 <Link
                     containerStyle={styles.link}
-                    to="experience"
-                    text="EXPERIENCE"
+                    to="skills"
+                    text="SKILLS"
                 />
                 <Link
                     containerStyle={styles.link}
@@ -36,6 +36,15 @@ const Home: React.FC<HomeProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
+                <a
+                    href={Resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    download
+                    style={styles.link}
+                >
+                    <h4 style={styles.resumeLink}>RESUME</h4>
+                </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forhire} alt="" /> */}
@@ -76,6 +85,11 @@ const styles: StyleSheetCSS = {
     nowHiring: {
         backgroundColor: 'red',
         padding: 16,
+    },
+    resumeLink: {
+        cursor: 'pointer',
+        fontWeight: 'bolder',
+        textDecoration: 'underline',
     },
     forHireContainer: {
         marginTop: 64,

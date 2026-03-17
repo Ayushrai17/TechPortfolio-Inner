@@ -12,23 +12,28 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Ayush Rai</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm Ayush Rai, a Computer Science Engineering student at Lovely Professional University, 
+                    Punjab, passionate about building intelligent and scalable software systems. 
+                    My interests lie in AI, Machine Learning, and Full-Stack Web Development, 
+                    where I enjoy solving real-world problems using modern technologies.
+                    <br /> <br />
+                    I have experience working with technologies such as Python, JavaScript, Node.js, 
+                    React, MongoDB, and REST APIs, and I have built several projects including AI-based 
+                    chatbots, full-stack web applications, and smart travel planning platforms.
                 </p>
                 <br />
                 <p>
-                    Thank you for taking the time to check out my portfolio. I
-                    really hope you enjoy exploring it as much as I enjoyed
-                    building it. If you have any questions or comments, feel
-                    free to contact me using{' '}
+                    Thank you for taking the time to explore my portfolio. 
+                    I truly enjoy building innovative tech projects and continuously learning 
+                    new tools and frameworks. If you would like to collaborate, discuss opportunities, 
+                    or have any questions,feel free to connect with me through the contact section.{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:ayush.17k@gmail.com">
+                        ayush.17k@gmail.com
                     </a>
                 </p>
             </div>
@@ -37,14 +42,11 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    From a young age, I have been curious about how technology works and how software 
+                    can solve real-world problems. This curiosity gradually 
+                    developed into a strong interest in programming and building digital products. 
+                    During my early learning years, I started exploring computers, web technologies, 
+                    and problem-solving through coding.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -58,32 +60,16 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                    As I progressed in my studies, I began learning programming languages such as Python, Java, C++, 
+                    and JavaScript, and started building small projects to strengthen my 
+                    understanding of software development. Over time, this interest 
+                    evolved into a passion for full-stack development, artificial intelligence, and machine learning.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    Currently, I am pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University. During my academic journey, I have worked on several practical projects including a subscription-based e-commerce platform (Fresh-Kart), an AI-powered harmful content detection chatbot, and a travel planning website with an AI itinerary generator. These projects helped me gain hands-on experience with technologies like React.js, Node.js, MongoDB, REST APIs, and NLP models.
+                    <br /> <br />
+                    I enjoy building meaningful software, learning new technologies, and solving challenging problems. My goal is to grow as a software engineer and AI developer, creating innovative applications that combine intelligent systems with modern web technologies.
                 </p>
                 <br />
                 <br />
@@ -97,32 +83,30 @@ const About: React.FC<AboutProps> = (props) => {
                         }}
                     >
                         <h3>My Hobbies</h3>
-                        <br />
+                        <br />  <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
-                            playing video games.
+                            Beyond software development, I enjoy exploring creative and
+                            productive activities in my free time. One of my biggest interests
+                            is working on personal tech projects and experimenting with new
+                            technologies in areas such as artificial intelligence, machine
+                            learning, and web development.
                         </p>
+
                         <br />
+
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            I also enjoy video editing and creating digital content, which
+                            allows me to combine creativity with technology. Apart from tech,
+                            some activities I enjoy include working out, learning new skills,
+                            and occasionally playing video games. These hobbies help me stay
+                            creative, motivated, and continuously inspired to build new things.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, March 2026
                             </sub>
                         </p>
                     </div>
@@ -137,9 +121,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://x.com/Ayushrai001"
                     >
-                        @henryheffernan
+                        @Ayushrai001
                     </a>{' '}
                     Good luck and have fun!
                 </p>
@@ -149,8 +133,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:ayush.17k@gmail.com">
+                        ayush.17k@gmail.com
                     </a>
                 </p>
             </div>
