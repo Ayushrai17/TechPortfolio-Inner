@@ -26,50 +26,76 @@ const Experience: React.FC = () => {
 
                 <br />
 
-                <h3>Web & Backend Development</h3>
+                <h3>Frontend</h3>
                 <ul>
+                    <li><p>HTML</p></li>
+                    <li><p>CSS</p></li>
+                    <li><p>JavaScript</p></li>
                     <li><p>React.js</p></li>
+                </ul>
+
+                <br />
+
+                <h3>Backend</h3>
+                <ul>
                     <li><p>Node.js</p></li>
                     <li><p>Express.js</p></li>
-                    <li><p>Flask</p></li>
-                    <li><p>Django</p></li>
                     <li><p>REST APIs</p></li>
                 </ul>
 
                 <br />
 
-                <h3>AI & Machine Learning</h3>
+                <h3>Web Design & UX/UI</h3>
                 <ul>
-                    <li><p>Machine Learning</p></li>
-                    <li><p>Natural Language Processing (NLP)</p></li>
+                    <li><p>Responsive Design</p></li>
+                    <li><p>Layout Design</p></li>
+                    <li><p>Wireframing</p></li>
+                    <li><p>User Flows</p></li>
+                    <li><p>Figma</p></li>
                 </ul>
 
                 <br />
 
-                <h3>Databases</h3>
+                <h3>Tools</h3>
                 <ul>
-                    <li><p>MongoDB</p></li>
-                </ul>
-
-                <br />
-
-                <h3>Tools & Platforms</h3>
-                <ul>
-                    <li><p>Docker</p></li>
                     <li><p>Git</p></li>
                     <li><p>GitHub</p></li>
-                    <li><p>Google Cloud</p></li>
-                    <li><p>Microsoft Azure</p></li>
+                    <li><p>Docker</p></li>
+                </ul>
+            </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Education</h1>
+                        <h4>Degrees & Certifications</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div className="text-block">
+                <h3>Education</h3>
+                <ul>
+                    <li><p><strong>Lovely Professional University</strong> - B.Tech CSE (2023 – Present)</p></li>
+                    <li><p><strong>J.D.G.S School</strong> - Higher Secondary (2022 – 2023)</p></li>
+                    <li><p><strong>J.D.G.S School</strong> - High School (2020 – 2021)</p></li>
                 </ul>
 
                 <br />
-
-                <h3>Soft Skills</h3>
+                
+                <h3>Training</h3>
                 <ul>
-                    <li><p>Problem Solving</p></li>
-                    <li><p>Analytical Thinking</p></li>
-                    <li><p>Collaboration</p></li>
-                    <li><p>Communication</p></li>
+                    <li><p><strong>Cipher Schools</strong> - Data Structure and Algorithm Using Java</p></li>
+                </ul>
+
+                <br />
+                
+                <h3>Certifications</h3>
+                <ul>
+                    <li><p><strong>Infosys</strong> - Computational Theory: Language Principle & Finite Automata Theory</p></li>
+                    <li><p><strong>Coursera</strong> - Computer Communications Specialization</p></li>
+                    <li><p><strong>Coursera</strong> - Introduction to Hardware and Operating Systems</p></li>
+                    <li><p><strong>Coursera</strong> - The Bits and Bytes of Computer Networking</p></li>
                 </ul>
             </div>
         </div>

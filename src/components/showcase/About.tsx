@@ -67,7 +67,7 @@ const About: React.FC<AboutProps> = (props) => {
                 </p>
                 <br />
                 <p>
-                    Currently, I am pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University. During my academic journey, I have worked on several practical projects including a subscription-based e-commerce platform (Fresh-Kart), an AI-powered harmful content detection chatbot, and a travel planning website with an AI itinerary generator. These projects helped me gain hands-on experience with technologies like React.js, Node.js, MongoDB, REST APIs, and NLP models.
+                    Currently, I am pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University. During my academic journey, I have worked on several practical projects including a subscription-based e-commerce platform (Fresh-Kart), a full-stack car rental platform, and a travel planning website with an AI itinerary generator. These projects helped me gain hands-on experience with technologies like React.js, Node.js, MongoDB, REST APIs, and responsive design.
                     <br /> <br />
                     I enjoy building meaningful software, learning new technologies, and solving challenging problems. My goal is to grow as a software engineer and AI developer, creating innovative applications that combine intelligent systems with modern web technologies.
                 </p>

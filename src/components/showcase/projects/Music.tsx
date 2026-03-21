@@ -5,7 +5,7 @@ export interface MusicProjectsProps {}
 const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Gurd AI</h1>
+            <h1>Car Rental Platform</h1>
             <h3>Projects</h3>
             <br />
             <p>
@@ -14,22 +14,22 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
             <div className="text-block">
-                <h2>Gurd AI</h2>
+                <h2>Car Rental Platform</h2>
                 <br />
                 <p>
-                    <strong>Tech:</strong> Python, NLP, Machine Learning
+                    <strong>Tech:</strong> Node.js, MongoDB, HTML, CSS, JavaScript
                 </p>
                 <br />
                 <p>
-                    An AI chatbot that detects harmful content in real-time, processing 1000+ messages per hour using sentiment analysis and toxicity classification with 85% accuracy.
+                    A full-stack car rental platform supporting real-time booking and dynamic vehicle availability management. Built with responsive UI and intuitive user flows to ensure a smooth experience across both mobile and desktop devices.
                 </p>
                 <br />
                 <h3>Key Points:</h3>
                 <ul>
-                    <li><p>Real-time moderation system</p></li>
-                    <li><p>NLP-based sentiment analysis</p></li>
-                    <li><p>Toxicity classification model</p></li>
-                    <li><p>Automated warning/block system</p></li>
+                    <li><p>Real-time booking system</p></li>
+                    <li><p>Dynamic vehicle availability management</p></li>
+                    <li><p>Responsive design for mobile and desktop</p></li>
+                    <li><p>RESTful APIs with MongoDB integration</p></li>
                 </ul>
             </div>
         </div>
